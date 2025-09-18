@@ -4,8 +4,4 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        encriptacion.cpp \
         main.cpp
-
-HEADERS += \
-    encriptacion.h
