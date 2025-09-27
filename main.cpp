@@ -95,6 +95,33 @@ unsigned char rotarDerecha(unsigned char byte, int n)
 
 // Encriptar: Rotación izquierda + XOR
 
+void encriptar(const char *entrada, int tam, int n, unsigned char k, char *salida)
+{
+    for (int i = 0; i < tam; i++)
+    {
+        unsigned char byte = (unsigned char)entrada[i];
+        byte = rotarIzquierda(byte, n);
+        byte = byte ^ k;
+        salida[i] = (char)byte;
+    }
+}
+
+// Desencriptar: XOR + Rotación derecha (operaciones inversas)
+void desencriptar(const char *entrada, int tam, int n, unsigned char k, char *salida)
+{
+    for (int i = 0; i < tam; i++)
+    {
+        unsigned char byte = (unsigned char)entrada[i];
+        byte = byte ^ k;
+        byte = rotarDerecha(byte, n);
+        salida[i] = (char)byte;
+    }
+}
+
+// ====== LECTURA DE ARCHIVOS ======
+
+// Lee archivo binario completo (sin usar fstream)
+
 
 
 
