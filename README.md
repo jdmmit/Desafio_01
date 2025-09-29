@@ -9,7 +9,7 @@ El desafio simula ingenieria inversa: con info limitada, deducimos algoritmos y 
 
 Curso: Informatica II – Universidad de Antioquia
 Semestre: 2025-2
-Fecha: 19 de septiembre de 2025
+Fecha: 28 de septiembre de 2025
 Autores: Juan David Murillo Mejia & Camilo Medina
 
 ## Como esta estructurado (orden para revisar)

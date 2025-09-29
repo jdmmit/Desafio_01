@@ -133,7 +133,7 @@ char *descomprimirRLE(const char *datosComprimidos, int tamanoComprimido, int &t
 
 // --- Implementación de la Descompresión LZ78 ---
 
-// ¡OJO! Esta implementación es más compleja porque no podemos usar STL (como std::map o std::vector).
+// OJO! Esta implementacion es mas compleja porque no podemos usar STL (como std::map o std::vector).
 
 // Lo haremos todo manualmente con punteros y memoria dinámica.
 
@@ -215,7 +215,6 @@ char *descomprimirLZ78(const char *datosComprimidos, int tamanoComprimido, int &
 
             datosSalida = nuevoBuffer;
             // Apuntamos al nuevo buffer más grande.
-
         }
 
         // Copiamos el prefijo y luego el nuevo caracter a la salida.
@@ -253,7 +252,7 @@ char *descomprimirLZ78(const char *datosComprimidos, int tamanoComprimido, int &
 
     datosSalida[tamanoSalida] = '\0';
 
-    // --- LIMPIEZA FINAL (¡CRUCIAL!) ---
+    // --- LIMPIEZA FINAL (CRUCIAL!) ---
 
     // Liberamos la memoria de cada una de las "palabras" que guardamos en el diccionario.
 
