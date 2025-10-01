@@ -1,3 +1,7 @@
+# Enlace de Video 
+
+## https://www.youtube.com/watch?v=52HZfbozqqQ
+
 # Desafio 01: Recuperacion de Texto Encriptado y Comprimido
 
 Hola. Bienvenido a nuestro proyecto para el Desafio 1 de Informatica II en la Universidad de Antioquia. Aqui resolvimos un reto de ingenieria inversa: dado un archivo encriptado y comprimido, con una pista pequena, reconstruimos el texto original usando C++ basico.
